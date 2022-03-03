@@ -6,7 +6,7 @@
     }
 
     body{
-        background-color: red;
+        /* background-color: red; */
     }
 
     .website{
@@ -22,7 +22,7 @@
 /* UTILITYS */
     .float{
         float: left;
-        background-color: aqua;
+        background-color: #ABCFE7;
         height: 565px;
     }
     .clearfix::after{
@@ -36,12 +36,12 @@
      header .heading{
         height: 100px;
         margin: 20px 0;
-        background-color: aqua;
+        background-color: #E579E6;
     }
 
     header .heading-second{
         height: 500px;
-        background-color: aliceblue;
+        background-color: #E1D67A;
         margin: 20px 0;
 
     }
@@ -51,14 +51,14 @@
 /* MAIN  */
     main{
         height: 700px;
-        background-color: green;
+        background-color: #0081EF;
     }
     
 
     
     
     .mainheader{
-        background-color: aliceblue;
+        background-color: #ABCFE7;
         height: 100px;
         margin-bottom: 1.5%;
     }
@@ -75,7 +75,7 @@
 /* FOOTER  */
     footer{
         height: 70px;
-        background-color: yellow ;
+        background-color: #8801FE ;
         margin: 5px auto 20px auto;
     }
     .extra{
