@@ -1,3 +1,86 @@
-/* body{
-    background-color: red;
-} */
+/* GENEREAL */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-color: red;
+    }
+
+    .website{
+        max-width: 1500px;
+        min-width: 500px;
+        margin: auto;
+        width: 80%;
+    }
+
+
+
+
+/* UTILITYS */
+    .float{
+        float: left;
+        background-color: aqua;
+        height: 565px;
+    }
+    .clearfix::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+
+/* HEADER  */
+     header .heading{
+        height: 100px;
+        margin: 20px 0;
+        background-color: aqua;
+    }
+
+    header .heading-second{
+        height: 500px;
+        background-color: aliceblue;
+        margin: 20px 0;
+
+    }
+
+
+
+/* MAIN  */
+    main{
+        height: 700px;
+        background-color: green;
+    }
+    
+
+    
+    
+    .mainheader{
+        background-color: aliceblue;
+        height: 100px;
+        margin-bottom: 1.5%;
+    }
+    
+    aside{
+        width: 14%;
+    }
+
+    section{
+        width: 70%;
+        margin: 0% 1%;
+    }
+
+/* FOOTER  */
+    footer{
+        height: 70px;
+        background-color: yellow ;
+        margin: 5px auto 20px auto;
+    }
+    .extra{
+        max-width: 1500px;
+        min-width: 500px;
+        margin:8px auto 20px auto;
+        width: 80%;
+    }
